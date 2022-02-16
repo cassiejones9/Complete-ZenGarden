@@ -20,5 +20,16 @@
     "@parcel/transformer-sass": "^2.2.1",
     "bootstrap": "^5.1.3"
   },
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassiejones9/Complete-ZenGarden.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cassiejones9/Complete-ZenGarden/issues"
+  },
+  "homepage": "https://github.com/cassiejones9/Complete-ZenGarden#readme"
 }
