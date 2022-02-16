@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prestart": "rimraf build/*",
-    "start": "parcel src/index.html --dist-dir build",
+    "start": "parcel examples/csszengarden.html --dist-dir build",
     "prebuild": "rimraf dist/*",
-    "build": "parcel build src/index.html --public-url ./",
-    "watch": "parcel watch src/index.html -dist-dir build/"
+    "build": "parcel build --public-url ./ ./examples/csszengarden.html  --out-dir build",
+    "watch": "parcel watch examples/csszengarden.html -dist-dir build/"
   },
   "author": "Shane T",
   "license": "GPL-2.0",
