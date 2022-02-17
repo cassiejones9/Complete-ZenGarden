@@ -57,6 +57,61 @@ header {
 	}
 }
 
+// section {
+// 	margin: 3em 0;
+// 	@include clearfix;
+
+// 	&:nth-of-type(1) h2::before {
+// 		content: '1. ';
+// 	}
+
+// 	&:nth-of-type(2) h2::before {
+// 		content: '2. ';
+// 	}
+
+// 	&:nth-of-type(3) h2::before {
+// 		content: '3. ';
+// 	}
+
+// 	&:nth-of-type(4) h2::before {
+// 		content: '4. ';
+// 	}
+
+// 	&:nth-of-type(5) h2::before {
+// 		content: '5. ';
+// 	}
+
+// 	&:nth-of-type(6) h2::before {
+// 		content: '6. ';
+// 	}
+    
+//     &:nth-of-type(7) h2::before {
+// 		content: '7. ';
+// 	}
+//       &:nth-of-type(8) h2::before {
+// 		content: '8. ';
+// 	}
+//       &:nth-of-type(9) h2::before {
+// 		content: '9. ';
+// 	}
+//     &:nth-of-type(10) h2::before {
+// 		content: '10. ';
+// 	}
+
+// 	@include MQ(S) {
+// 		margin: 3em 0 5em;
+// 	}
+
+// 	@include MQ(L) {
+// 		@include column(.48);
+// 		margin: 0 4% 4em 0;
+
+// 		&:nth-of-type(2n) {
+// 			margin-right: 0;
+// 		}
+// 	}
+// }
+
 // .cd-logo {
 // 	display: inline-block;
 // 	height: 100%;
@@ -263,93 +318,40 @@ header {
 // 	}
 // }
 
-main {
-	width: 90%;
-	max-width: $M;
-	margin: 0 auto;
-	padding: 50px 0;
+// main {
+// 	width: 90%;
+// 	max-width: $M;
+// 	margin: 0 auto;
+// 	padding: 50px 0;
 
-	> h1 {
-		text-align: center;
-		margin: 3em 0;
-	}
+// 	> h1 {
+// 		text-align: center;
+// 		margin: 3em 0;
+// 	}
 
-	@include MQ(M) {
-		padding-top: 80px;
-	}
+// 	@include MQ(M) {
+// 		padding-top: 80px;
+// 	}
 
-	@include MQ(L) {
-		max-width: none;
-		padding: 120px 0 50px;
+// 	@include MQ(L) {
+// 		max-width: none;
+// 		padding: 120px 0 50px;
 
-		> h1 {
-			position: fixed;
-			top: 0;
-			left: 50%;
-			height: 80px;
-			line-height: 80px;
-			width: 400px;
-			margin: 0 0 0 -200px;
-			font-size: 2.6rem;
-			z-index: 20;
-		}
-	}
-}
+// 		> h1 {
+// 			position: fixed;
+// 			top: 0;
+// 			left: 50%;
+// 			height: 80px;
+// 			line-height: 80px;
+// 			width: 400px;
+// 			margin: 0 0 0 -200px;
+// 			font-size: 2.6rem;
+// 			z-index: 20;
+// 		}
+// 	}
+// }
 
-section {
-	margin: 3em 0;
-	@include clearfix;
 
-	&:nth-of-type(1) h2::before {
-		content: '1. ';
-	}
-
-	&:nth-of-type(2) h2::before {
-		content: '2. ';
-	}
-
-	&:nth-of-type(3) h2::before {
-		content: '3. ';
-	}
-
-	&:nth-of-type(4) h2::before {
-		content: '4. ';
-	}
-
-	&:nth-of-type(5) h2::before {
-		content: '5. ';
-	}
-
-	&:nth-of-type(6) h2::before {
-		content: '6. ';
-	}
-    
-    &:nth-of-type(7) h2::before {
-		content: '7. ';
-	}
-      &:nth-of-type(8) h2::before {
-		content: '8. ';
-	}
-      &:nth-of-type(9) h2::before {
-		content: '9. ';
-	}
-    &:nth-of-type(10) h2::before {
-		content: '10. ';
-	}
-
-	@include MQ(S) {
-		margin: 3em 0 5em;
-	}
-
-	@include MQ(L) {
-		@include column(.48);
-		margin: 0 4% 4em 0;
-
-		&:nth-of-type(2n) {
-			margin-right: 0;
-		}
-	}
-}
 
 /* xBranding section - basic style */
 
