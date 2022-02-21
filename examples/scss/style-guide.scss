@@ -16,7 +16,7 @@ xBackground
 -------------------------------- */
 
 // body {
-  /* this is the page background */
+/* this is the page background */
 //   background-image: url("../assets/nightsky.jpg");
 //   height: 100%;
 //   background-position: left;
@@ -27,11 +27,13 @@ xBackground
 .page-wrapper {
   background-image: url("../assets/nightsky.jpg");
   max-width: 1600px;
-  height: 100%;
+  // height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20%;
+  // padding-bottom: 67%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -278,5 +280,3 @@ xForm
 //   cursor: pointer;
 //   @include appearance(none);
 // }
-
-
