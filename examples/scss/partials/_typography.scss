@@ -71,3 +71,12 @@ p {
   }
 }
 
+// This is the text at the top that is centered which is different from the content text
+.summary p{
+  text-align: center;
+  font-family: $third-font;
+  font-size: 1.25em;
+  max-width: 700px;
+  padding: 20px;
+}
+

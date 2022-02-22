@@ -31,7 +31,16 @@ a {
 // img {
 // 	max-width: 100%;
 // }
-
+.summary a:link {
+	background-color: $color-1;
+	text-transform: uppercase;
+	color: $color-2;
+	padding: 15px 30px 15px 30px;
+	margin: 10px;
+	text-shadow: none;
+	font-weight: bold;
+	border-radius: 10px;
+}
 select {
 	font-family: $secondary-font;
 	font-size: 1.6rem;
