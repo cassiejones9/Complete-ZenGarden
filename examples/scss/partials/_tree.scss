@@ -2,5 +2,13 @@
     background-image: url(../assets/branding/trees.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 100%;
+    background-size: cover;
+}
+
+#zen-intro {
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 250px;
+    background-position-y: 25px;
 }
