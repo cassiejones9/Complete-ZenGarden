@@ -1,100 +1,131 @@
-header {
-    text-align: right;
-    padding-top: 20px;
-    padding-right: 20px;
-  }
-  // .cd-navigation .cd-box h3 {
-  //   color: $color-1;
-  //   font-family: $primary-font;
-  //   font-size: 16pt;
-  //   padding: 10px 0 10px 0;
-  // }
+@import 'colors'; // color palette 
 
-  // .cd-logo {
-  //   /* logo box style */
-  //   background-color: $color-2;
-  //   width: 120px;
-  //   margin-top: 25px;
-  //   padding-top: 40px;
-  //   padding-left: 20px;
-  
-  //   @include MQ(M) {
-  //     width: 180px;
-  //   }
-  // }
-  
-  // .cd-main-nav, .cd-navigation {
-  //     text-align: center;
-  //   /* main navigation background color - full screen on small devices */
-  //   //background: $color-2;
-  //   li {
-  //       display: inline;
-  //       padding: 20px;
-        
-  //       a {
-  //         color: $color-2;
-  //       }
-  //   }   
-  //   @include MQ(M) {
-  //     li a {
-  //       color: $color-2;
-  //       transition: 0.3s;
-  
-  //       &.selected {
-  //         color: $color-5;
-  //         box-shadow: 0 2px 0 $color-1;
-  //         transition: 0.3s;
-  //       }
-  
-  //       &:hover {
-  //         color: $color-1;
-  //         background-color: $color-2;
-  //         padding: 0 20px 0 20px;
-  //       }
-  //     }
-  //   }
-  // }
-  
-  // .cd-nav-trigger span {
-  //   /* hamburger menu */
-  //   background-color: $color-5;
-  //   color: $color-1;
-  
-  //   &::before,
-  //   &::after {
-  //     /* upper and lower lines */
-  //     background-color: $color-5;
-  //     color: $color-1;
-  //   }
-  // }
-  
-  // .nav-is-visible .cd-nav-trigger span {
-  //   /* hide line in the center on mobile when nav is visible */
-  //   background-color: rgba($color-5, 0);
-  
-  //   &::before,
-  //   &::after {
-  //     /* preserve visibility of upper and lower lines - close icon */
-  //     background-color: rgba($color-5, 1);
-  //   }
-  // }
-  
-  // .cd-download {
-  //   /* download button top-right visible on big devices */
-  //       text-align: right;
-  
-  //   .no-touch &:hover {
-  //     background-color: lighten($color-2, 15%);
-  //   }
-  
-  //   span {
-  //     /* tooltip */
-  //     background: $color-1;
-  //     color: $color-5;
-  
-  //     &::before {
-  //       /* right arrow color */
-  //       border-color: $color-1;
-  //     }
-  //   }
-  // }
+header {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  width: min-content;
+}
+
+nav ul,
+nav ul li {
+  display: grid;
+  color: $color-5;
+}
+
+.sidebar h3{
+  background-color:transparent;
+  color: $color-1;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// .cd-navigation .cd-box h3 {
+//   color: $color-1;
+//   font-family: $primary-font;
+//   font-size: 16pt;
+//   padding: 10px 0 10px 0;
+// }
+
+// .cd-logo {
+//   /* logo box style */
+//   background-color: $color-2;
+//   width: 120px;
+//   margin-top: 25px;
+//   padding-top: 40px;
+//   padding-left: 20px;
+
+//   @include MQ(M) {
+//     width: 180px;
+//   }
+// }
+
+// .cd-main-nav, .cd-navigation {
+//     text-align: center;
+//   /* main navigation background color - full screen on small devices */
+//   //background: $color-2;
+//   li {
+//       display: inline;
+//       padding: 20px;
+
+//       a {
+//         color: $color-2;
+//       }
+//   }   
+//   @include MQ(M) {
+//     li a {
+//       color: $color-2;
+//       transition: 0.3s;
+
+//       &.selected {
+//         color: $color-5;
+//         box-shadow: 0 2px 0 $color-1;
+//         transition: 0.3s;
+//       }
+
+//       &:hover {
+//         color: $color-1;
+//         background-color: $color-2;
+//         padding: 0 20px 0 20px;
+//       }
+//     }
+//   }
+// }
+
+// .cd-nav-trigger span {
+//   /* hamburger menu */
+//   background-color: $color-5;
+//   color: $color-1;
+
+//   &::before,
+//   &::after {
+//     /* upper and lower lines */
+//     background-color: $color-5;
+//     color: $color-1;
+//   }
+// }
+
+// .nav-is-visible .cd-nav-trigger span {
+//   /* hide line in the center on mobile when nav is visible */
+//   background-color: rgba($color-5, 0);
+
+//   &::before,
+//   &::after {
+//     /* preserve visibility of upper and lower lines - close icon */
+//     background-color: rgba($color-5, 1);
+//   }
+// }
+
+// .cd-download {
+//   /* download button top-right visible on big devices */
+//       text-align: right;
+
+//   .no-touch &:hover {
+//     background-color: lighten($color-2, 15%);
+//   }
+
+//   span {
+//     /* tooltip */
+//     background: $color-1;
+//     color: $color-5;
+
+//     &::before {
+//       /* right arrow color */
+//       border-color: $color-1;
+//     }
+//   }
+// }

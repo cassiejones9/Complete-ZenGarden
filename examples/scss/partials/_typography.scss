@@ -80,3 +80,20 @@ p {
   padding: 20px;
 }
 
+
+#zen-summary p:nth-child(2) {
+  display: grid;
+  justify-content: center;
+  text-align:center;
+}
+
+.summary a:link:nth-child(1),.summary a:link:nth-child(2) {
+
+  width: 100%
+}
+
+.preamble p, .supporting p {
+  padding: 0 20%;
+  max-width:100%
+}
+

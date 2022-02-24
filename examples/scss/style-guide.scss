@@ -27,10 +27,9 @@ xBackground
 
 #css-zen-garden {
   background-image: url("../assets/nightsky.jpg");
-  max-width: 92.5em;
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 77%;
+  background-size: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,6 +45,8 @@ footer {
   background-repeat: no-repeat;
   background-position-x: center;
   animation: blinker 1s linear infinite;
+  text-align: right;
+  padding-left: 7%;
 }
 
 @keyframes blinker {
