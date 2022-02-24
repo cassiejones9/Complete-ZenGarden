@@ -11,3 +11,11 @@
     background-position-x: 7%;
     background-position-y: 25px;
 }
+
+
+@media only screen and (max-width: 600px) {
+#zen-intro {
+background-position-x: center;
+
+}
+}

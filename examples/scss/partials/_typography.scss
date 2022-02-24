@@ -97,3 +97,18 @@ p {
   max-width:100%
 }
 
+@media only screen and (max-width: 600px) {
+h1 {
+  text-align: center;
+  margin-top: 4em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.summary p{
+font-size: 1em;
+}
+}

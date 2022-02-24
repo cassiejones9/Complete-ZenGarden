@@ -16,15 +16,6 @@ xBackground
 
 -------------------------------- */
 
-// body {
-/* this is the page background */
-//   background-image: url("../assets/nightsky.jpg");
-//   height: 100%;
-//   background-position: left;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-
 #css-zen-garden {
   background-image: url("../assets/nightsky.jpg");
   background-position: top center;
@@ -39,6 +30,23 @@ footer {
   padding: 15px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+#css-zen-garden{
+  background-size: 400%;
+}
+
+}
+
+// Cassie - working on placement of footer for mobile site
+// @media only screen and (max-width: 600px) {
+// footer {
+// position: absolute;
+// bottom: 0;
+// width: 100%;
+// height: 5rem;  
+// }
+// }
 
 // working on the stars to twinkle
 // .participation {
