@@ -31,7 +31,7 @@ a {
 // img {
 // 	max-width: 100%;
 // }
-.summary a:link {
+.summary a:link, a:visited {
 	background-color: $color-1;
 	text-transform: uppercase;
 	color: $color-2;
@@ -47,7 +47,7 @@ select {
 	color: $color-1;
 }
 
-header {
+// header {
 	// position: fixed;
 	// height: 50px;
 	// width: 100%;
@@ -56,15 +56,15 @@ header {
 	// box-shadow: 0 1px 1px rgba(#000, .1);
 	// z-index: 10;
 
-	nav {
-		display: inline-block;
-	}
+// 	nav {
+// 		display: inline-block;
+// 	}
 
-	@include MQ(M) {
-		height: 80px;
-		@include clearfix;
-	}
-}
+// 	@include MQ(M) {
+// 		height: 80px;
+// 		@include clearfix;
+// 	}
+// }
 
 #css-zen-garden {
 	background-color: $color-2;

@@ -40,20 +40,21 @@ footer {
   text-align: center;
 }
 
-.intro header {
-  background-image: url(../assets/star.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  animation: blinker 1s linear infinite;
-  text-align: right;
-  padding-left: 7%;
-}
+// working on the stars to twinkle
+// .participation {
+//   background-image: url(../assets/star.png);
+//   background-repeat: no-repeat;
+//   background-position-x: center;
+//   animation: blinker 1s linear infinite;
+//   text-align: right;
+//   padding-left: 7%;
+// }
 
-@keyframes blinker {
-  50% {
-    opacity: 40;
-  }
-}
+// @keyframes blinker {
+//   50% {
+//     opacity: 0;
+//   }
+// }
 
 /* -------------------------------- 
 
