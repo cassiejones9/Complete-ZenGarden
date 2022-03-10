@@ -36,6 +36,10 @@ footer {
   background-size: 400%;
 }
 
+// footer {
+//   position: 
+// }
+
 }
 
 // Cassie - working on placement of footer for mobile site
@@ -48,15 +52,28 @@ footer {
 // }
 // }
 
+
 // working on the stars to twinkle
-// .participation {
-//   background-image: url(../assets/star.png);
-//   background-repeat: no-repeat;
-//   background-position-x: center;
-//   animation: blinker 1s linear infinite;
-//   text-align: right;
-//   padding-left: 7%;
-// }
+@keyframes pulse {
+  from {
+      // transform: scale(0.95);
+      opacity: .5;
+  }
+
+  to {
+      // transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.summary {
+  background: url(../assets/star.png);
+  background-repeat: no-repeat;
+  background-position: 70% 65%;
+  // position: relative;
+  // z-index: 999;
+  animation: pulse 1s infinite alternate-reverse;
+}
 
 // @keyframes blinker {
 //   50% {
