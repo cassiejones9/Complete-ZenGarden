@@ -66,12 +66,13 @@ footer {
   }
 }
 
-.summary {
+#zen-summary p:first-child::after {
   background: url(../assets/star.png);
   background-repeat: no-repeat;
   background-position: 70% 65%;
-  // position: relative;
-  // z-index: 999;
+  display: block;
+  position: relative;
+  z-index: 2;
   animation: pulse 1s infinite alternate-reverse;
 }
 
