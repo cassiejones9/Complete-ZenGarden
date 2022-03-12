@@ -62,25 +62,27 @@ footer {
 
   to {
       // transform: scale(1);
-      opacity: 1;
+      opacity: .9;
   }
 }
 
-#zen-summary p:first-child::after {
-  background: url(../assets/star.png);
-  background-repeat: no-repeat;
-  background-position: 70% 65%;
-  display: block;
-  position: relative;
+#zen-summary:before {
+  content: url(../assets/star.png);
+  position: absolute;
+  left: 70%;
+  top: 20%;
   z-index: 2;
   animation: pulse 1s infinite alternate-reverse;
 }
 
-// @keyframes blinker {
-//   50% {
-//     opacity: 0;
-//   }
-// }
+#zen-explanation:before {
+  content: url(../assets/star.png);
+  position: absolute;
+  left: 35%;
+  top: 83%;
+  z-index: 2;
+  animation: pulse 1s infinite alternate-reverse;
+}
 
 /* -------------------------------- 
 

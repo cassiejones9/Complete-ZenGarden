@@ -3,14 +3,14 @@
 xBasic style
 
 -------------------------------- */
-
-*, *::after, *::before {
-	@include box-sizing(border-box);
-}
-
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	@include box-sizing(border-box);
 }
 
 html {
