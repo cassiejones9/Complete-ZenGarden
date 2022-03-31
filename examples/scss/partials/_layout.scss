@@ -28,23 +28,7 @@ $L:     1600px;
 // This is the grid for the whole page
 .page-wrapper {
   display: grid;
-  grid-template-columns: 1fr 2.5fr .9fr .8fr 1fr;
 }
-
-section {
-  grid-column: 2 / 5;
-  justify-self: stretch;
-}
-
-#zen-supporting {
-  grid-column: 2 / 6;
-  justify-self: start;
-}
-
-aside {
-  grid-column: 4;
-}
-
 
 // This is the grid for the summary section so we can get our buttons in the right spot
 .summary {

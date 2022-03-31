@@ -84,7 +84,9 @@ p {
 #zen-summary p:nth-child(2) {
   display: grid;
   justify-content: center;
-  text-align:center;
+  grid-gap: 10px;
+  color: transparent;
+  text-shadow: none;
 }
 
 .summary a:link:nth-child(1),.summary a:link:nth-child(2) {
