@@ -25,3 +25,19 @@ $L:     1600px;
   float: $float-direction;
 }
 
+// This is the grid for the whole page
+.page-wrapper {
+  display: grid;
+}
+
+// This is the grid for the summary section so we can get our buttons in the right spot
+.summary {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.summary a {
+  grid-row: 2;
+  align-content: space-around;
+  justify-content: space-between;
+}

@@ -29,16 +29,20 @@ footer {
   background-color: $color-4;
   padding: 15px;
   text-align: center;
+  height: 50px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-#css-zen-garden{
-  background-size: 400%;
-}
+  #css-zen-garden {
+    background-size: 400%;
+  }
 
-// footer {
-//   position: 
-// }
+  footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
 
 }
 
@@ -76,11 +80,14 @@ footer {
   opacity: .9;
 }
 
-// @keyframes blinker {
-//   50% {
-//     opacity: 0;
-//   }
-// }
+#zen-explanation:before {
+  content: url(../assets/star.png);
+  position: absolute;
+  left: 35%;
+  top: 83%;
+  z-index: 2;
+  animation: pulse 1s infinite alternate-reverse;
+}
 
 /* -------------------------------- 
 
