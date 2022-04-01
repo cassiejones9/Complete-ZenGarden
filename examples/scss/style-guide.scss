@@ -29,16 +29,20 @@ footer {
   background-color: $color-4;
   padding: 15px;
   text-align: center;
+  height: 50px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-#css-zen-garden{
-  background-size: 400%;
-}
+  #css-zen-garden {
+    background-size: 400%;
+  }
 
-// footer {
-//   position: 
-// }
+  footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
 
 }
 
@@ -56,13 +60,13 @@ footer {
 // working on the stars to twinkle
 @keyframes pulse {
   from {
-      // transform: scale(0.95);
-      opacity: .5;
+    // transform: scale(0.95);
+    opacity: .5;
   }
 
   to {
-      // transform: scale(1);
-      opacity: .9;
+    // transform: scale(1);
+    opacity: .9;
   }
 }
 
