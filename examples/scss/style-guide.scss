@@ -57,23 +57,23 @@ footer {
 @keyframes pulse {
   from {
       // transform: scale(0.95);
-      opacity: .5;
+      opacity: .2;
   }
 
   to {
       // transform: scale(1);
-      opacity: 1;
+      opacity: .9;
   }
 }
 
-#zen-summary p:first-child::after {
-  background: url(../assets/star.png);
-  background-repeat: no-repeat;
-  background-position: 70% 65%;
-  display: block;
-  position: relative;
+#zen-summary:before {
+  content: url(../assets/star.png);
+  position: absolute;
+  left: 70%;
+  top: 20%;
   z-index: 2;
-  animation: pulse 1s infinite alternate-reverse;
+  animation: pulse 1.5s infinite alternate-reverse;
+  opacity: .9;
 }
 
 // @keyframes blinker {
